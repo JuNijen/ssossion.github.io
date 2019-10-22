@@ -21,6 +21,12 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
 
+
+    <style type="text/css">
+        @import url("css/top-menu.css");
+
+    </style>
+
 </head>
 
 <body>
@@ -29,26 +35,25 @@
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
             <a class="navbar-brand" href="#">SSOSSION</a>
-            <a class="btn btn-primary" href="#">Sign In</a>
+
+            <!-- Menu bar -->
+            <nav id="topMenu">
+                <ul>
+                    <li><a class="menuLink" href="#">Main</a></li>
+                    <li>|</li>
+                    <li><a class="menuLink" href="#">About us</a></li>
+                    <li>|</li>
+                    <li><a class="menuLink" href="/html/service.html">Service</a></li>
+                    <li>|</li>
+                    <li><a class="menuLink" href="/html/contact.html">Contact us</a></li>
+                    <li>|</li>
+                    <li><a class="menuLink" href="#">News</a></li>
+                </ul>
+            </nav>
         </div>
     </nav>
-    
-    <div class="topmenu" style="width: 8rem; height: 5rem">
-        <style type="text/css">
-    @import url("css/top-menu.css");
-    </style>
-    <nav id = "topMenu">
-        <ul>
-            <li><a href="#">Main</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="/html/service.html">Service</a></li>
-            <li><a href="/html/contact.html">Contact us</a></li>
-            <li><a href="#">News</a></li>
-        </ul>
-    </nav>
 
-    </div>
-    
+
     <!-- Masthead -->
     <header class="masthead">
         <div class="overlay"></div>
@@ -62,7 +67,7 @@
 
     </header>
 
-    
+
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
         <div class="container">

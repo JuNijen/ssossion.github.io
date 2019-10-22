@@ -8,7 +8,6 @@
       color: white;
       background-color: #2d2d2d;
       float: left;
-      width = "";
       line-height: 30px;
       vertical-align: middle;
       text-align: center;
@@ -25,7 +24,7 @@
   }
 
   #topMenu .menuLink:hover {
-      color: red;
+      color: skyblue;
       background-color: #4d4d4d;
   }
 
