@@ -87,6 +87,29 @@ header.masthead h1 {
     font-size: 5rem
 }
 
+
+.features-about-us {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.features-about-us .features-about-us-item {
+    max-width: 40rem
+}
+
+.features-about-us .features-about-us-item .features-about-us-icon {
+    height: 7rem
+}
+
+.features-about-us .features-about-us-item .features-about-us-icon i {
+    font-size: 4rem
+}
+
+.features-about-us .features-about-us-item:hover .features-about-us-icon i {
+    font-size: 5rem
+}
+
+
 .testimonials {
     padding-top: 7rem;
     padding-bottom: 7rem
