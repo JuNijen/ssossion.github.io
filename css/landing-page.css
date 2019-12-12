@@ -23,8 +23,8 @@ header.masthead {
   background-color: #343a40;
   background: url("../img/banner.png") repeat bottom bottom;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 header.masthead .overlay {
@@ -40,8 +40,8 @@ header.masthead .overlay {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 13.75rem;
+    padding-bottom: 8rem;
   }
   header.masthead h1 {
     font-size: 3rem;
@@ -53,7 +53,7 @@ header.masthead .overlay {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 20rem;
   background-size: cover;
 }
 
@@ -73,7 +73,7 @@ header.masthead .overlay {
 }
 
 .features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+  height: 5rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
@@ -81,7 +81,7 @@ header.masthead .overlay {
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .testimonials {
@@ -90,7 +90,7 @@ header.masthead .overlay {
 }
 
 .testimonials .testimonial-item {
-  max-width: 18rem;
+  max-width: 12rem;
 }
 
 .testimonials .testimonial-item img {

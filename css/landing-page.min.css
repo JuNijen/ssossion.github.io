@@ -23,7 +23,7 @@ header.masthead {
     background: url(../img/banner.png) no-repeat center center;
     background-size: cover;
     padding-top: 4rem;
-    padding-bottom: 8rem
+    padding-bottom: 4rem
 }
 
 header.masthead .overlay {
@@ -42,8 +42,8 @@ header.masthead h1 {
 
 @media (min-width:768px) {
     header.masthead {
-        padding-top: 12rem;
-        padding-bottom: 12rem
+        padding-top: 13.75rem;
+        padding-bottom: 8rem
     }
 
     header.masthead h1 {
@@ -67,24 +67,24 @@ header.masthead h1 {
 }
 
 .features-icons {
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 1rem
 }
 
 .features-icons .features-icons-item {
-    max-width: 20rem
+    max-width: 25rem
 }
 
 .features-icons .features-icons-item .features-icons-icon {
-    height: 7rem
+    height: 5rem
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
-    font-size: 4rem
+    font-size: 3rem
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
-    font-size: 5rem
+    font-size: 3.25rem
 }
 
 
@@ -98,7 +98,7 @@ header.masthead h1 {
 }
 
 .features-about-us .features-about-us-item .features-about-us-icon {
-    height: 7rem
+    height: 5rem
 }
 
 .features-about-us .features-about-us-item .features-about-us-icon i {
