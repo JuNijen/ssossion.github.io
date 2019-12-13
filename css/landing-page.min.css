@@ -51,6 +51,81 @@ header.masthead h1 {
     }
 }
 
+
+
+
+header.aboutus-masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url(../img/aboutus.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+header.aboutus-masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6
+}
+
+@media (min-width:768px) {
+    header.aboutus-masthead {
+        padding-top: 10rem;
+        padding-bottom: 7rem;
+    }
+    
+    header.aboutus-masthead 
+    {
+        align-content: center;                
+    }
+}
+
+
+
+
+
+header.contactus-masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url(../img/contactus.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+
+header.contactus-masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .6
+}
+
+@media (min-width:768px) {
+    header.contactus-masthead {
+        padding-top: 10rem;
+        padding-bottom: 7rem;
+    }
+    
+    header.contactus-masthead 
+    {
+        align-content: center;                
+    }
+}
+
+
+
+
+
+
+
 .showcase .showcase-text {
     padding: 3rem
 }
@@ -98,7 +173,7 @@ header.masthead h1 {
 }
 
 .features-about-us .features-about-us-item .features-about-us-icon {
-    height: 5rem
+    height: 2rem
 }
 
 .features-about-us .features-about-us-item .features-about-us-icon i {
@@ -146,4 +221,28 @@ header.masthead h1 {
 footer.footer {
     padding-top: 1rem;
     padding-bottom: 0.5rem
+}
+
+.png-icon
+{
+    width : 3rem;
+    height: auto;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.png-icon .png-icon-item {
+    max-width: 25rem
+}
+
+.png-icon .png-icon-item .png-icon-icon {
+    height: 5rem
+}
+
+.png-icon .png-icon-item .png-icon-icon i {
+    font-size: 3rem
+}
+
+.png-icon .png-icon-item:hover .png-icon-icon i {
+    font-size: 3.25rem
 }
