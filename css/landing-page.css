@@ -18,6 +18,8 @@ h6 {
   font-weight: 700;
 }
 
+
+
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -38,6 +40,7 @@ header.masthead .overlay {
 }
 
 
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 13.75rem;
@@ -48,12 +51,14 @@ header.masthead .overlay {
   }
 }
 
+
+
 .showcase .showcase-text {
   padding: 3rem;
 }
 
 .showcase .showcase-img {
-  min-height: 20rem;
+  min-height: 30rem;
   background-size: cover;
 }
 
@@ -62,6 +67,8 @@ header.masthead .overlay {
     padding: 7rem;
   }
 }
+
+
 
 .features-icons {
   padding-top: 7rem;
@@ -72,17 +79,7 @@ header.masthead .overlay {
   max-width: 20rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon {
-  height: 5rem;
-}
 
-.features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
-}
-
-.features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 4rem;
-}
 
 .testimonials {
   padding-top: 7rem;
@@ -97,6 +94,8 @@ header.masthead .overlay {
   max-width: 12rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
+
+
 
 .call-to-action {
   position: relative;
@@ -117,7 +116,62 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 
+
+
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
 }
+
+
+
+.contactus-textpadding
+{
+    padding-left:3rem;
+    padding-right:3rem;
+}
+.contactus-mappadding
+{
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+
+  <style> #topMenu {
+      height: 50px;
+      width: 850px;
+  }
+
+  #topMenu ul li {
+      list-style: none;
+      color: white;
+      background-color: #2d2d2d;
+      float: left;
+      vertical-align: middle;
+      text-align: center;
+  }
+
+  #topMenu .menuLink {
+      text-decoration: none;
+      color: white;
+      display: block;
+      width: 150px;
+      font-size: 16px;
+      font-weight: normal;
+      font-family: "Trebuchet MS";
+  }
+
+  #topMenu .menuLink:hover {
+      color: skyblue;
+      background-color: #4d4d4d;
+  }
+
+#topMenu .menuLine
+{
+      color: white;
+      font-size: 16px;
+      font-family: "Trebuchet MS";
+}
+
+</style >
+

@@ -17,6 +17,8 @@ h6 {
     font-weight: 700
 }
 
+
+
 header.masthead {
     position: relative;
     background-color: #343a40;
@@ -122,10 +124,6 @@ header.contactus-masthead .overlay {
 
 
 
-
-
-
-
 .showcase .showcase-text {
     padding: 1rem
 }
@@ -141,27 +139,18 @@ header.contactus-masthead .overlay {
     }
 }
 
+
+
 .features-icons {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 0rem
 }
 
 .features-icons .features-icons-item {
     max-width: 25rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
-.features-icons .features-icons-item .features-icons-icon {
-    height: 5rem
-}
-
-.features-icons .features-icons-item .features-icons-icon i {
-    font-size: 3rem
-}
-
-.features-icons .features-icons-item:hover .features-icons-icon i {
-    font-size: 3.25rem
-}
 
 
 .features-about-us {
@@ -186,6 +175,7 @@ header.contactus-masthead .overlay {
 }
 
 
+
 .testimonials {
     padding-top: 7rem;
     padding-bottom: 7rem
@@ -199,6 +189,8 @@ header.contactus-masthead .overlay {
     max-width: 12rem;
     box-shadow: 0 5px 5px 0 #343a40
 }
+
+
 
 .call-to-action {
     position: relative;
@@ -219,10 +211,14 @@ header.contactus-masthead .overlay {
     opacity: .3
 }
 
+
+
 footer.footer {
-    padding-top: 1rem;
-    padding-bottom: 0.5rem
+    padding-top: 0rem;
+    padding-bottom: 1rem
 }
+
+
 
 .png-icon
 {
@@ -247,3 +243,56 @@ footer.footer {
 .png-icon .png-icon-item:hover .png-icon-icon i {
     font-size: 3.25rem
 }
+
+
+.contactus-textpadding
+{
+    padding-left:3rem;
+    padding-right:3rem;
+}
+.contactus-mappadding
+{
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+
+
+  <style > #topMenu {
+      height: 50px;
+      width: 750px;
+  }
+
+  #topMenu ul li {
+      list-style: none;
+      color: white;
+      background-color: #2d2d2d;
+      float: left;
+      vertical-align: middle;
+      text-align: center;
+  }
+
+  #topMenu .menuLink {
+      text-decoration: none;
+      color: white;
+      display: block;
+      width: 120px;
+      font-size: 13px;
+      font-weight: normal;
+      font-family: "Trebuchet MS";
+  }
+
+  #topMenu .menuLink:hover {
+      color: skyblue;
+      background-color: #4d4d4d;
+  }
+
+#topMenu .menuLine
+{
+      color: white;
+      font-size: 13px;
+      font-family: "Trebuchet MS";
+}
+
+  </style >
+
