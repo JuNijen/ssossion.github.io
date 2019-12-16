@@ -138,7 +138,7 @@ footer.footer {
 
 
   <style> #topMenu {
-      height: 50px;
+      height: 75px;
       width: 850px;
   }
 
@@ -156,7 +156,7 @@ footer.footer {
       color: white;
       display: block;
       width: 150px;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: normal;
       font-family: "Trebuchet MS";
   }
@@ -169,7 +169,7 @@ footer.footer {
 #topMenu .menuLine
 {
       color: white;
-      font-size: 16px;
+      font-size: 14px;
       font-family: "Trebuchet MS";
 }
 
